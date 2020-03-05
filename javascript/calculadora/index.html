@@ -194,22 +194,31 @@
         $("#btn-x").click(function(event) {
             event.preventDefault();
             let valor = $("#resultado").val();
-            $("#resultado").val(valor + "x");
+            numero = parsefloat(valor);
+            operacion = 3;
+            $("#resultado").val("");
         });
 
         $("#btn-=").click(function(event) {
             event.preventDefault();
             let valor = $("#resultado").val();
+            let res = 0;
 
             switch(operacion){
                 case 1:
                 let res = numero + parseInt(valor);
                 $("#resultado").val(res);
                 break;
+
+                case 2:
+
+
+                case 3:
+                res = numero * parsefloat(valor);
+                $("#resultado").val(res);
+                break;
                 
             }
-            
-            $("#resultado").val(valor + "=");
 
         });
         
