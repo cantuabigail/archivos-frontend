@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <title>Fotografias</title>
+ <link
+ rel="stylesheet"
+
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+"
+ />
+ </head>
+ <style>
+   body{
+     background-color:lightskyblue;
+   }
+   .boton{
+     color: lightyellow;
+     background-color: mediumorchid;
+     border-radius: 40%;
+     padding: 8px 5px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-transform: uppercase;
+     
+   }
+</style>
+ <body>
+ <div class="container">
+ <div class="row mt-4">
+ <div class="col-md-12">
+ <h1>Perritos cute</h1>
+ 
+ <button onClick="getRandomImage()" class="boton">Click para ver fotos de perritos</button><br/>
+ <br/>
+ <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg">
+
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous">
+</script>
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous">
+</script>
+ 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous">
+</script>
+<script>
+    // function to get a random image
+function getRandomImage()
+{
+  // get the data from the server
+  $.get( "https://dog.ceo/api/breeds/image/random", function( data ) {
+    // set the source of the image
+    $('#dogImage').attr('src', data.message)
+  });
+}
+</script>
+ 
+ </body>
+</html>
