@@ -1,0 +1,52 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.menu li a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.fondo-principal{
+    background-image: url("../img/fondo1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.texto-header{
+    padding-top: 300px;
+}
+
+.texto-header p{
+    font-weight: 800;
+}
+
+.boton-negro:hover{
+    color: white;
+}
+
+.boton-negro{
+    background: black;
+    padding: 12px 24px;
+    color: white;
+}
+
+h2{
+    font-weight: 800;
+}
+
+h1{
+    font-weight: 800;
+}
