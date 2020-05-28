@@ -1,0 +1,29 @@
+.header{
+    background-image: url("img/seccion1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1093px;
+
+}
+
+#navbarNav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fondo-menu{
+    background: rgba(255, 127, 127, 0.6);
+}
+
+.h-blanco{
+    text-transform: uppercase;
+    color: white;
+}
+
+.h-rosa{
+    color: #ff7f7f;
+    text-transform: uppercase;
+}
+
+.p-
