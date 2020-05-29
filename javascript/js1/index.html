@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript 1</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link href="all.min.css" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Javascript 1</h1>
+
+    <div class="container">
+        <div class="col-6">
+            
+        </br><h1> Javascript 1 <i class="fab fa-js"></i></h1>
 
     <form action="" method="POST" id="form1" onsubmit="mensaje()">
         Nombre: <input type="text" name="nombre" id="nombre" />
         <input type="submit" value="Enviar" />
     </form>
-
-    <button id="boton1" onclick="agregar()">Mensaje</button>
+</br>
+    <button class="btn btn-primary" id="boton1" onclick="agregar()">Mensaje</button>
     <div id="lista"></div>
-    
+</div>
+</div>
+
     <script>
         function mensaje() {
             var nameValue = document.getElementById("nombre").value;
@@ -28,5 +38,7 @@
             lista.appendChild(node);
         }
     </script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
