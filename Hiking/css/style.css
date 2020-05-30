@@ -85,3 +85,52 @@ h1{
 .icono-social{
     color: white;
 }
+
+.fondo-gris{
+    background: f3f3f3; 
+}
+
+@media (min-width: 576px){
+}
+@media (min-width: 768px){
+}
+@media (min-width: 992px){
+}
+@media (min-width: 1200px){
+}
+@media (min-width: 1600px){
+}
+@media (max-width: 1400px){
+}
+@media (max-width: 1199.98px){
+}
+@media (max-width: 991.98px){
+}
+@media (max-width: 767.98px){
+}
+@media (max-width: 575.98px){
+    .fondo-principal{
+        background-image: url("../img/fondo1-1.png");
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 537px ;
+    }
+
+    .texto-header{
+        padding-top: 50px;
+    }
+
+    .fondo-bosque{
+        background-image: url("../img/fondo2-2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        padding-top: 160px;
+    }
+
+    .fondo-bosque h1{
+        font-size: 24px;
+    }
+}
