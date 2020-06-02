@@ -1,11 +1,13 @@
 .boton {
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     text-decoration: none;
     padding: 10px 5px;
     border: 1px solid #000000;
     color: #ffffff;
     background: #c3c3c3;
+    
 }
 
 .boton:hover{
@@ -31,4 +33,14 @@
 
 .boton.redondo{
     border-radius: 30%;
+}
+
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.body{
+    background-color: rgb(194, 245, 223);
 }

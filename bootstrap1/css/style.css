@@ -10,3 +10,12 @@
 .fuente3{
     font-family: 'Indie Flower', cursive;
 }
+
+body{
+    background-color: rgb(235, 184, 201);
+    padding-top: 50px;
+}
+
+h1{
+    padding-left: 450px;
+}

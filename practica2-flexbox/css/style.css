@@ -5,11 +5,13 @@
   body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(235, 194, 208);
   }
   
   .header {
     text-align: center;
     padding: 32px;
+    font-weight: bold;
   }
   
   .row {
