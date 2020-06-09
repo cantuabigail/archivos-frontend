@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
     
 </head>
+<style>
+    body{
+        background: rgb(216, 243, 191);
+    }
+    .campos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight:bold;
+    }
+</style>
 <body>
     <div class="container">
         <div class="row">
@@ -17,13 +27,13 @@
             <h1 class="text-center">Validaci&oacute;n de formularios con Parsley</h1></br>
             <form data-parsley-validate="">
 
-                <label for="name">Nombre:</label></br>
+                <label for="name" class="campos">Nombre:</label></br>
                 <input type="text" name="Nombre" data-parsley-required="true" placeholder=" Ingresa tu nombre"/> </br></br>
 
-                <label>Apellido:</label></br>
+                <label class="campos">Apellido:</label></br>
                 <input type="text" name="Apellido" data-parsley-required="true" placeholder=" Ingresa tu apellido"/> </br></br>
 
-                <label for="email">Email:</label></br>
+                <label for="email" class="campos">Email:</label></br>
                 <input type="email" class="form-control" name="email" data-parsley-trigger="change" data-parsley-type="email" data-parsley-required="true" placeholder="Ingresa tu email" />
                  </br>
 
