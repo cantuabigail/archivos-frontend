@@ -1,0 +1,57 @@
+$color1: #826;
+$color2:#61cfe2;
+$color3: rgba(245, 246, 247, 0.966);
+
+$fuente1: 'Oswald', sans-serif;
+$fuente2: 'Tenali Ramakrishna', sans-serif;
+
+.body{
+    
+    background-color: rgb(204, 223, 240);
+}
+
+.menu{
+    list-style: none;
+    background: $color1; 
+    padding: 8px 8px; 
+    max-width: 1024px;
+    margin: auto;
+    font-family: $fuente1;
+    font-size: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:$color3;
+    padding: 10px;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color:$color1;
+    font-family: $fuente2;
+    font-size: 30px;
+    background: $color2;
+    text-transform: uppercase;
+    border-bottom: 2px solid #A6E1FA;
+}
+
+h1{
+    font-family: $fuente1;
+
+}
+
+h2{
+    font-family: $fuente2;
+    font-size: 42px;
+}
+
+p{
+    font-family: $fuente2;
+    font-size: 30px;
+}
