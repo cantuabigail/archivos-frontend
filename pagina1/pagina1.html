@@ -5,26 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pagina 1</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <style>
+    body{
+        background: rgb(255, 254, 187);
+    }
     .par{
         font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
     }
     .tit{
         text-transform: uppercase;
         font-size: 50px;
+        padding-top: 50px;
+    }
+    .table{
+        border: 2pt solid #b32176;
+        text-align: center;
+    }
+    .lista{
+        text-align: center;
+    }
+    .lista ul li{
+        display: block;
     }
 </style>
 <body>
-    <h1 class="tit">P&aacute;gina 1</h1>
+    <div class="container">
+        <div class="col-12 text-center">
+    <h1 class="tit ">P&aacute;gina 1</h1>
+
     <p class="par">Lorem ipsum <b>dolor</b> sit amet consectetur adipisicing elit.</p> 
     <p class="par">Ad quasi saepe corrupti quia ea <i>accusantium</i> officiis incidunt qui tenetur ducimus</p> 
     <p class="par">sequi explicabo similique voluptate repudiandae, earum unde necessitatibus beatae exercitationem.</p>
-    <h2>Imagen</h2>
+    
+    <h2 class="text-center">Im&aacute;gen</h2>
     <img src="img/imagen1.jpg" height="250" width="200">
+</div>
+</div>
 
-<h2>Tabla</h2>
-<table>
+    <div class="container">
+<h2 class="text-center">Tabla</h2>
+<table class="table">
     <tr>
         <td>Nombre</td>
         <td>Correo</td>
@@ -46,7 +70,10 @@
         <td>7298374745</td>
     </tr>
 </table>    
-
+</div>
+<div class="lista">
+   
+        
 <h2>Lista</h2>
 
 <ul>
@@ -55,7 +82,13 @@
     <li>Opcion 3</li>
 </ul>
 
-<a href="pagina2.html">Pagina 2 </a>
-<a href="index.html">index</a>
+<a class="btn btn-primary" href="pagina2.html">Pagina 2 </a>
+<a class="btn btn-primary" href="indexx.html">index</a>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
